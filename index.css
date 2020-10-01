@@ -1,0 +1,123 @@
+.main {
+    max-width: 1920px;
+    width: 100%;
+}
+
+.light-blue {
+    background: #2378FC;
+}
+
+.dark-blue {
+    background: #30BCC9;
+    ;
+}
+
+.yellow {
+    background: #FFC41E;
+}
+
+.red {
+    background: #F6404F;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 180px;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header__list-element {
+    list-style-type: none;
+    padding-right: 47px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.header__list-element:last-child {
+    padding-right: 0;
+}
+
+.header__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.forum {
+    display: flex;
+    padding: 184px 405px 53px;
+    color: #ffffff;
+}
+
+.forum__main-title {
+    display: block;
+    max-width: 535px;
+    margin-right: 37px;
+}
+
+.forum__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.forum__subtitle {
+    margin: 0;
+    padding: 35px 0 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.forum__about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 135%;
+    margin: 0;
+}
+
+.forum__grids {
+    display: grid;
+    max-width: 540px;
+    max-height: 353px;
+    grid-template-columns: repeat(auto-fill, 255px);
+    grid-gap: 30px;
+}
+
+.forum__grid {
+    box-sizing: border-box;
+    min-height: 148px;
+}
+
+.forum__grid-title {
+    max-width: 175px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    margin: 30px auto 15px 40px;
+}
+
+.forum__grid-subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    margin: 0 auto 30px 40px;
+}
